@@ -18,7 +18,7 @@
 
     <?php
         $numero = rand(1,100);
-        $num = $_POST[num];
+        $num = $_POST["num"];
 
         if ($num > $numero)
         {
