@@ -24,7 +24,7 @@
 <p>Você digitou: <?php echo $palpite; ?></p>
 
 <?php
-if ($palpite > $sorte) {
+if ($palpite > $random) {
     echo "<p>Tente um número menor!</p>";
 } else {
     echo "<p>Tente um número maior!</p>";
