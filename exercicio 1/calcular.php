@@ -17,12 +17,12 @@
     $num5 = $num / 5;
     $num2 = $num / 2;
     
-    echo "Você precisaria de $num100 notas de R$100 para bater o número R$$num";
-    echo "Você precisaria de $num50 notas de R$50 para bater o número R$$num";
-    echo "Você precisaria de $num20 notas de R$20 para bater o número R$$num";
-    echo "Você precisaria de $num10 notas de R$10 para bater o número R$$num";
-    echo "Você precisaria de $num5 notas de R$5 para bater o número R$$num";
-    echo "Você precisaria de $num2 notas de R$2 para bater o número R$$num";
+    echo "Você precisaria de $num100 notas de R$100 para bater o número R$$num<br>";
+    echo "Você precisaria de $num50 notas de R$50 para bater o número R$$num<br>";
+    echo "Você precisaria de $num20 notas de R$20 para bater o número R$$num<br>";
+    echo "Você precisaria de $num10 notas de R$10 para bater o número R$$num<br>";
+    echo "Você precisaria de $num5 notas de R$5 para bater o número R$$num<br>";
+    echo "Você precisaria de $num2 notas de R$2 para bater o número R$$num<br>";
 
 ?>
 </body>
