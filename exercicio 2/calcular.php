@@ -10,6 +10,7 @@
 <?php
 
     $num = $_POST ["num"];
+    $numor = $num;
     $random = rand(1,10);
     $retep = 0;
     
@@ -19,7 +20,7 @@
 
     }while(num!=0)
     
-    echo "Você precisaria de $num100 notas de R$100 para bater o número R$$num<br>";
+    echo "Levou $retep repetições para sair do número $num a 0<br>";
 
 ?>
 </body>
