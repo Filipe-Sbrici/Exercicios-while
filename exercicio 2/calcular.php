@@ -9,19 +9,18 @@
 <body>
 <?php
 
-    $num = $_POST ["num"];
+    $num = $_POST["num"];
     $numor = $num;
-    $random = rand(1,10);
+    $random = rand(1, 10);
     $retep = 0;
-    
-    do{
-        $num -= $random;
+
+    do {
+        $numor -= $random;
         $retep += 1;
+    } while($numor > 0);
 
-    }while(num!=0)
+    echo "Levou aproximadamente $retep repetições do numero $random, para sair do número $num até 0<br>";
     
-    echo "Levou $retep repetições para sair do número $num a 0<br>";
-
 ?>
 </body>
 </html>
