@@ -21,3 +21,9 @@ h1
     font-weight: bold;
     color: rgb(238, 203, 8);
 }
+
+button
+{
+    color: rgb(33, 34, 28);
+    font-family: Comic Sans MS; 
+}
