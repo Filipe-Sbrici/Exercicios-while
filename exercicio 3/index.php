@@ -7,9 +7,7 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-
-
-    
+<div class = "chickenjockey">
 <h1>ROLETA ALEATÓRIA</h1>
 <form method="post">
     <button type="submit" name="sortear">Girar</button>
@@ -31,6 +29,6 @@ echo "Número base: $base<br>";
 echo "Total de tentativas: $tentativas<br>";
 echo "Números gerados: " . implode(", ", $nums);
 ?>
-    
+</div>
 </body>
 </html>  
