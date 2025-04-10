@@ -14,14 +14,20 @@
 </form>
 
 <?php
+$base = rand(0, 100);
+$tentativas = 0;
+$nums = [];
 
-    $numero = rand(0,10);
-    echo "num test $numero<br>"
+do {
+    $numero = rand(0, 100);
+    $tentativas++;
+    $nums[] = $numero;
+} while ($numero != $base);
 
-    if (isset($_POST['botao_teste'])) {
-      echo "O botão foi clicado!";
-    }
-
+echo "<h2>Adivinhação Automática</h2>";
+echo "Número base: $base<br>";
+echo "Total de tentativas: $tentativas<br>";
+echo "Números gerados: " . implode(", ", $nums);
 ?>
     
 </body>
