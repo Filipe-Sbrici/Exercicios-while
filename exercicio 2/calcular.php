@@ -7,6 +7,8 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
+<div class = "chickenjockey">
+
 <?php
 
     $num = $_POST["num"];
@@ -20,7 +22,8 @@
     } while($numor > 0);
 
     echo "Levou aproximadamente $retep repetições do numero $random, para sair do número $num até 0<br>";
-    
+
 ?>
+</div>
 </body>
 </html>

@@ -7,6 +7,7 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
+<div class = "chickenjockey">
 <?php
 
     $num = $_POST ["num"];
@@ -25,5 +26,6 @@
     echo "Você precisaria de $num2 notas de R$2 para bater o número R$$num<br>";
 
 ?>
+</div>
 </body>
 </html>
